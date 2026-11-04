@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear Cuenta | Formly</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="div-content">
+      <div class="left-content">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.jpg" alt="" />
+            <span>formly.</span>
+          </a>
+        </div>
+        <div class="content">
+          <div class="empezar">
+            <span class="dot"></span>
+            <p>tu espacio empieza aquí</p>
+          </div>
+          <div class="title">
+            <h2>Una cuenta.</h2>
+            <span>Un nuevo <br />comienzo.</span>
+          </div>
+          <div class="description">
+            <p>
+              Crea tu cuenta en unos instantes. Nosotros comprobamos que todo
+              esté correcto antes de continuar.
+            </p>
+          </div>
+        </div>
+        <div class="sign-in">
+          <div class="checked">
+            <span>✓</span>
+          </div>
+          <div class="registration">
+            <p class="record">Registro sencillo y claro</p>
+            <p class="light">Te indicamos cómo corregir cualquier dato.</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="create-acc">
+          <span>crear cuenta - </span>
+          <span>01/11/2026</span>
+        </div>
+        <div class="content">
+          <h2>¡Qué bueno tenerte aquí!</h2>
+          <p>
+            ¡Qué bueno verte de nuevo, <span id="user-name"></span>! Puedes
+            actualizar tus datos.
+          </p>
+        </div>
+        <div class="form-section">
+          <form action="" id="form" class="form" novalidate>
+            <div class="field">
+              <label for="name" class="label">Nombre Completo</label>
+              <div class="input-wrap">
+                <span>👤</span>
+                <input type="text" name="name" placeholder="Ej: Meg skelton" class="input" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="email" class="label">Correo electronico</label>
+              <div class="input-wrap">
+                <span>✉</span>
+                <input type="email" name="email" placeholder="nom@email.com" class="input" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="password" class="label">Contraseña</label>
+              <div class="input-wrap clave">
+                <span>🔑</span>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Minimo 6 caracteres"
+                  class="input"
+                />
+              </div>
+              <small class="small">Utiliza al menos 6 caracteres</small>
+            </div>
+            <div class="field">
+              <label for="ConfirmarPassword" class="label">
+                Confirmar Contraseña
+              </label>
+              <div class="input-wrap">
+                <span>🔑</span>
+                <input
+                  type="password"
+                  name="confirmarPassword"
+                  placeholder="Repite tu contraseña"
+                  class="input"
+                />
+              </div>
+            </div>
+            <button type="submit">Crear mi cuenta →</button>
+            <p>🏳️ Tus datos se validan en este dispositivo.</p>
+          </form>
+        </div>
+        <footer>
+          <span>© 2026 Formly</span>
+          <span>Hecho para empezar con buen pie</span>
+        </footer>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
