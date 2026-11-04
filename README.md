@@ -1,7 +1,7 @@
 Formly — Formulaire de création de compte
 
 Formly 
-🌐 Voir site web: https://bloommethod.github.io/validacion-formulario/
+🌐 [voir site web]: (https://bloommethod.github.io/validacion-formulario/)
 
 📌 Description
 
