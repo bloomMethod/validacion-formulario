@@ -139,7 +139,7 @@ body {
       .content {
         margin-bottom: 30px;
         h2 {
-          font-size: 35px;
+          font-size: 32px;
           margin-bottom: 10px;
         }
         p {
@@ -270,6 +270,12 @@ body {
           display: none;
         }
         .content {
+          .empezar{
+            grid-template-columns: 20px 1fr;
+            .dot{
+              justify-self: flex-start;
+            }
+          }
           .title {
             h2 {
               font-size: 35px;
