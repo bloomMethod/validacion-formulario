@@ -256,3 +256,44 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    .div-content {
+      width: 100%;
+      margin: 0px;
+      border-radius: 0px;
+      grid-template-columns: 1fr;
+      .left-content {
+        border-radius: 0px;
+        .logo {
+          display: none;
+        }
+        .content {
+          .title {
+            h2 {
+              font-size: 35px;
+            }
+            .desktop{
+              display: none;
+            }
+            span {
+              font-size: 30px;
+            }
+          }
+          .description{
+            p{
+              font-size: 15px;
+            }
+          }
+        }
+        .sign-in{
+          display: none;
+        }
+      }
+      .right-content{
+        padding: 80px 50px 30px 50px;
+      }
+    }
+  }
+}
